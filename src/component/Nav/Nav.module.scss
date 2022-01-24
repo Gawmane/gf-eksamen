@@ -1,0 +1,26 @@
+@import '../../assets/helpers/mixin';
+@import '../../assets/helpers/variabler';
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Roboto+Condensed:wght@300;400&display=swap');
+
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
+li {
+    display: inline;
+    padding-right: 50px;
+    &:last-of-type {
+        padding-right: 100px;
+    }
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $gray;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3vh;
+    &:hover {
+        color: $darkBlue;
+    }
+}

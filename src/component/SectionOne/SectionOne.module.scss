@@ -1,0 +1,20 @@
+@import '../../assets/helpers/mixin';
+@import '../../assets/helpers/variabler';
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Roboto+Condensed:wght@300;400&display=swap');
+#verdensmål {
+    @include section;
+    h2 {
+        @include headers;
+    }
+    p {
+        @include content;
+    }
+    div {
+        display: grid;
+        grid-template-columns: auto auto;
+        
+    }h3 {
+            @include headers;
+            font-size: 3vh;
+        }
+}
